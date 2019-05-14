@@ -1,0 +1,19 @@
+#
+# SimpleColor by Trophonix
+# - - - - - - - - -
+# CONFIG REFERENCE
+# - - - - - - - - -
+# noPermission:
+#   cancel: true/false - Whether to cancel the chat/sign entirely when user tries to use code
+#   removeCode: true/false - Whether to remove the &(code) from the resulting message/sign
+#                             (will only take place if cancel is false)
+#   errorMessage: Message to send to the user. Remove from config or set it to blank for no message.
+# - - - - - - - - -
+# {NAME} will be replaced with name of the color.
+# {CHAR} will be replaced with the color char (0-9, a-f)
+#
+
+noPermission:
+  cancel: false
+  removeCode: true
+  errorMessage: "&cRemoved '{NAME}' formatting code. Insufficient permissions."
